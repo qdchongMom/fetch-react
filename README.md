@@ -19,7 +19,7 @@ REACT_APP_NEWSAPI_API_KEY=REPLACE_WITH_YOUR_API_KEY
 ```
   - Note: Because this `.env.local` file contains secrets, it is listed in `.gitignore` and will not be committed in `git`
 
-- Run `npm start`
+- Run `npm start` (If you have started the application before you save the API key into `.env.local`, you need to stop the application and start it again so that the API key in `.env.local` is loaded).
 
 ### Tasks
 - In `NewsFeed.js#componentDidMount()`, start by making a GET request to the defined URL using `fetch()`. Here's a short snippet to get your started. You can also use `async/await` syntax if you like.
