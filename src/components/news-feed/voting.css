@@ -1,0 +1,12 @@
+.voting {
+  font-size: x-large;
+}
+
+.plus-one {
+  max-width: 50px;
+  margin-left: 20px;
+}
+
+img.plus-one:hover {
+  cursor: pointer;
+}

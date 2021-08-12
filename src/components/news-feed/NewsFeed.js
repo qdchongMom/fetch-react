@@ -27,8 +27,8 @@ class NewsFeed extends Component {
 
   render() {
     //console.log(this.state.articles.articles);
-    //const { articles } = this.state;
-    return this.state.articles.map((article, i) => (
+    const { articles } = this.state;
+    return articles.map((article, i) => (
       // TODO: start coding!
       <Article article={article}></Article>
     ));
